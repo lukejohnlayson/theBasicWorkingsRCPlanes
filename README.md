@@ -1,1 +1,3 @@
 # The Basic Workings of a Remote Control Plane
+WORK IN PROGRESS
+CLOSED ALPHA CURRENTLY IN PROGRESS
