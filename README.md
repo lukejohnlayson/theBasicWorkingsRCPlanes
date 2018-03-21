@@ -1,3 +1,5 @@
 # The Basic Workings of a Remote Control Plane
 WORK IN PROGRESS
 CLOSED ALPHA CURRENTLY IN PROGRESS
+## CURRENTLY ONLY THE INDEX IS IN USABLE CONDITION 
+You have been warned
