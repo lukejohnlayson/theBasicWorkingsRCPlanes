@@ -1,5 +1,6 @@
 # The Basic Workings of a Remote Control Plane
 WORK IN PROGRESS
 CLOSED ALPHA CURRENTLY IN PROGRESS
-## CURRENTLY ONLY THE INDEX IS IN USABLE CONDITION 
+## DO NOT GO TO THE CONSTRUCTION PAGE
+The Navbar is still under construction
 You have been warned
