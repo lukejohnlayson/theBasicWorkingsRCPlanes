@@ -1,0 +1,314 @@
+/* DISCLAIMER
+
+    All code below may contain:
+    -Bad formating
+    -Incorrect code
+    -Unnecessary code
+    -Repeated Code
+    -The occasional slip-up           
+
+
+Overall Styling */
+html {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Default Text Font*/
+    background-color: white; /* Default Background Color*/
+}
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+
+/* Nav Bar and Hamburger Styling */
+#navbar {
+    background-color: white; /* Navbar Background Color*/
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#navbar a {
+    padding: 8px 32px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+#navbar a:hover { /*Navbar link hover color*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.other {
+    color: black;
+}
+
+.current {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: black;
+}
+
+
+.navbar-fixed {
+    position: fixed;
+    top: -3em;
+  }
+
+
+/* Main Page */
+.mainpage h2 {
+    color: black; /* Default h2 color for index*/
+    text-align: center;
+}
+.mainpage p {
+    color: black; /* Default p color for index*/
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+}
+
+#navbar { /* Navbar container styling */
+    width: 100%;
+    background-color: white; /* Font color for Description below Parallax*/
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.description3 {
+	height: 700px;
+}	
+
+/* Gallery */
+
+.galleryFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galleryFlex img {
+    margin: 30px;
+    border-radius: 15px;
+    height: 340px;
+}
+
+.gallery {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow for gallery class*/
+}
+
+/* Background */
+
+.background1 {
+    background-image: url("background1.jpg"); /* Background image for background1 class*/
+    margin: 10px;
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow for background1 class*/
+    border-radius: 15px;
+}
+
+.background1 h2 {
+	font-size: 30px;
+    padding-top: 10%;
+    color: white;
+}
+
+.background1 p {
+	font-size: 20px;
+}
+
+/* Cards */
+
+.teamCard {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 35%;
+	float: left;
+    background-color: white;
+    height: 30%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.teamCard:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.teamCard img {
+	width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.teamContainer {
+	color: black;
+	font-size: 25px;
+    padding: 5px;
+}
+
+#teamContainer {
+	font-size: 17px;
+}
+		
+/* Parallax */
+.parallax {
+    background-image: url("resources/parallax1.png");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    background-image: url("resources/parallax1.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    background-image: url("resources/components.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    background-image: url("resources/parallax3.png");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    background-image: url("resources/parallax4.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    position: relative;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+.caption span.border {
+    background-color: white;
+    color: black;
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+}
+
+
+/* Pages */
+
+.about {
+    background-image: url("aboutBackground.jpg");
+    padding: 40px;
+    padding: 40px
+}
+
+.about h2 {
+    color: black;
+    text-align: center;
+}
+
+.about p {
+    color: black;
+}
+
+.about a {
+	padding-left: 50px;
+	width: 15%;
+	border-radius: 25px;
+	background-color: #6daf59;
+	color: white;
+	text-decoration: none;
+}
+
+/* Description Styling */
+
+.intro {
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+        /*Components*/
+
+
+
+/*Scroll to Top Button*/
+.scrollToTop{
+	width:100px; 
+	height:35px;
+	padding:10px; 
+	background: white;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	border-radius: 35px;
+	position:fixed;
+	top: 80%;
+	right: 6%;
+	opacity: 0.9;
+	display:none;
+}
+.scrollToTop:hover{
+	text-decoration: none;
+	opacity: 1;
+}
+
+
+/* Footer */
+
+.footer {
+    height: 200px;
+}
+    
+footer a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    right: 0;
+    padding-right: 6px;
+}
+footer h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-left: 6px;
+}
+footer {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    background-color: white;
+    margin: 0;
+}
+
