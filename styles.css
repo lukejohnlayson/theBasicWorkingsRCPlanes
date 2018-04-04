@@ -360,7 +360,7 @@ footer {
     margin: 0;
 }
 
-#overlay {
+#copyrightOverlay {
     position: fixed;
     display: none;
     width: 100%;
