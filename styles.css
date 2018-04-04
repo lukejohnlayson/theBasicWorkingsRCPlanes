@@ -109,10 +109,11 @@ iframe {
 .background1 {
     background-image: url("background1.jpg"); /* Background image for background1 class*/
     margin: 10px;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow for background1 class*/
     border-radius: 15px;
+    height: 400px;
 }
 
 .background1 h2 {
