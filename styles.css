@@ -112,12 +112,9 @@ iframe {
 
 .galleryFlex {
     display: flex;
-    text-align: center;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .galleryFlex img {
@@ -128,6 +125,8 @@ iframe {
 
 .gallery {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Shadow for gallery class*/
+    border-radius: 25px;
+    text-align: center;
 }
 
 /* Background */
@@ -139,6 +138,7 @@ iframe {
     justify-content: center;
     flex-wrap: wrap;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 .background1 h2 {
