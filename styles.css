@@ -381,7 +381,7 @@ iframe {
 	top: 80%;
 	right: 6%;
 	opacity: 0.9;
-	display:none;
+	display: block;
 }
 .scrollToTop:hover{
 	text-decoration: none;
