@@ -288,6 +288,17 @@ iframe {
 	margin-right: 40%;
 }
 
+.introWarning {
+    border-radius: 25px;
+    background-color: #c11919;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
 .video {
 	border-radius: 25px;
 }
