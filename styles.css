@@ -373,16 +373,17 @@ iframe {
 	width:100px; 
 	height:35px;
 	padding:10px; 
-	background: white;
+	text-align:center; 
+	background: #ffffff;
 	font-weight: bold;
-	color: black;
+	color: #a8a8a8;
 	text-decoration: none;
 	border-radius: 35px;
 	position:fixed;
 	top: 80%;
-	right: 6%;
+	right: 46%;
 	opacity: 0.9;
-	display: block;
+	display:none;
 }
 .scrollToTop:hover{
 	text-decoration: none;
