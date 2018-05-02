@@ -1,5 +1,6 @@
-# theBasicWorkingsRCPlanes
-WARNING CURRENLY IN DEVELOPMENT
-Some features may not exist or work
-
-This readme was very nice but then a certin wild Jeff deleted it
+# The Basic Workings of a Remote Control Plane
+WORK IN PROGRESS
+CLOSED ALPHA CURRENTLY IN PROGRESS
+## DO NOT GO TO THE CONSTRUCTION PAGE
+The Navbar is still under construction
+You have been warned

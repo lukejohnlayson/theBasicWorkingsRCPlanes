@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js-1.js"></script>
+        <script src="js-2.js"></script>
+        <script src="js-3.js"></script>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/favicon.png">
+        <title>Aerodynamic Design</title>
+    </head>
+    <body>
+
+        <div class="mainpage">
+            <div class="parallax1">
+                <div id="caption" class="caption">
+                    <span class="border">Aerodynamic Design</span>
+                </div>
+            </div>
+            <!-- Articles -->
+            <div id="navbar">
+                            <script>
+                                // When the user scrolls the page, execute myFunction 
+                                window.onscroll = function() {myFunction()};
+
+                                // Get the navbar
+                                var navbar = document.getElementById("navbar");
+
+                                // Get the offset position of the navbar
+                                var sticky = navbar.offsetTop;
+
+                                // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+                                function myFunction() {
+                                  if (window.pageYOffset >= sticky) {
+                                    navbar.classList.add("sticky")
+                                  } else {
+                                    navbar.classList.remove("sticky");
+                                  }
+                                }
+                            </script>
+                            <!-- Sticky nav bar - W3Schools -->
+                                <a class="current" href="index.html">Home</a>
+                                <a class="other" href="components.html">Components</a>
+                                <a class="other" href="aerodynamicDesign.html">Aerodynamic Design</a>
+                                <a class="other" href="materials.html">Materials</a>
+                                <a class="other" href="buying.html">Buying Guide</a>
+                            
+                        </div>
+            <div class="designDescription1">
+				<div class="intro">
+					<h2>Welcome to this Webpage</h2>
+					<p>This page will inform you on the aerodynamic design of airplanes and how they fly</p>
+				</div>
+                <p class="intro">
+				The design of a remote control plane is the most important aspect of the aircraft. Remote control planes largely resemble larger aircraft with some designed as scale models. They fly using the same physics which will be briefly described below.
+                </p>
+				<img class="brand" src="resources/wingDiagram.jpg">
+				<p class="intro">
+				There are 4 forces that act on aircraft. They are thrust (forwards), drag (backwards), lift (upwards), and weight (downwards). Thrust is achieved by the motors, drag is the air resistance acting on the plane, weight is the weight of the plane pulling it down to earth. Lift is where it gets more complicated. There are different ways to generate lift, but it is pretty much creating upwards thrust through the means of wings, rockets, or large turboprops. Naturally remote control planes use wings. The diagram shows the design of a wing and how it generates upwards thrust.
+				</p>
+            </div>
+            <!-- Footer -->
+            <div class="header">
+							<h1>Made by <i>Luke Finlayson and Jeff Lester</i></h1>
+                            <h1 id="copyrightOverlayButton" onClick="on()">Copyright and Licensing</h2>
+                            <div id="copyrightOverlay" onClick="off()">
+                                <div class="copyrightBox">
+                                    <h2>Important Information concerning Copyrighting</h2>
+                                    <p>There are many images used on this website that have been carefully selected from the internet. We have been careful not to use any images that are not licensed for reuse with modification. If there are any image that are not licensed for reuse then please report what image it is and what page its on to the email "l.finlayson@stpauls.school.nz".</p>
+									<p>To close this window please click anywhere</p>
+                                </div>
+                            </div>
+                            <script>
+                                // Javascript for copyright overlay
+                                function on() {
+                                    document.getElementById("copyrightOverlay").style.display = "block";
+                                }
+
+                                function off() {
+                                    document.getElementById("copyrightOverlay").style.display = "none";
+                                 }
+                            </script>
+                    </div>  
+        </div>
+    </body>
+</html>
