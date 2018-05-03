@@ -153,7 +153,7 @@ iframe {
 
 /* Cards */
 
-.teamCard {
+.teamCard { /*styles the catagory info boxes found on the index*/
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 300px;
     background-color: white;
@@ -161,28 +161,28 @@ iframe {
     margin: 0.5%;
 }
 
-.teamCard:hover {
+.teamCard:hover { /*Styles some nice hover effect on the info boxes*/
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
 
-.teamCard img {
+.teamCard img { /*styles the images in the info boxes*/
     width: 300px;
     height: 300px;
     border-radius: 10px 10px 0px 0px;
 }
 
-.teamContainer {
+.teamContainer { /*style the text in the info boxes*/
 	color: black;
 	font-size: 25px;
     padding: 5px;
 }
 
-#teamContainer {
+#teamContainer { /*styles the text inside the info boxes*/
 	font-size: 17px;
 }
 		
 /* Parallax */
-.parallax {
+.parallax { /* parallax classes style the parallax effect found on each page*/
     background-image: url("resources/parallaxSketch1.jpg");
     height: 600px;
     background-attachment: fixed;
@@ -222,7 +222,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.caption {
+.caption { /*positions the page title*/
     position: relative;
     left: 0;
     top: 45%;
@@ -231,7 +231,7 @@ iframe {
     color: white;
     opacity: 0.7;
 }
-.caption span.border {
+.caption span.border { /*Styles the page title*/
     background-color: white;
     color: black;
     padding: 18px;
@@ -244,7 +244,7 @@ iframe {
 
 /* Pages */
 
-.about {
+.about { /*.about styling for old text boxes*/
     background-image: url("aboutBackground.jpg");
     padding: 40px;
     padding: 40px
@@ -270,7 +270,7 @@ iframe {
 
 /* Description Styling */
 
-.intro {
+.intro { /*Styles all text boxes found on the site*/
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
@@ -280,7 +280,7 @@ iframe {
     font-size: 20px;
 	text-align: center;
 }
-.introLink {
+.introLink { /*Styles links to other sites found on the site*/
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
@@ -292,7 +292,7 @@ iframe {
 	margin-right: 40%;
 }
 
-.introWarning {
+.introWarning { /*styles any errors found*/
     border-radius: 25px;
     background-color: #c11919;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -304,18 +304,18 @@ iframe {
     text-align: center;
 }
 
-.video {
+.video { /*Styles the videos with nice round corners*/
 	border-radius: 25px;
 }
 
-.brand {
+.brand { /*styles the images found on the site*/
 	width: 80%;
 	margin-left: 10%;
 	border-radius: 25px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.transmitter {
+.transmitterETC { /*styles the text boxes for the components page*/
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 20px;
@@ -323,47 +323,7 @@ iframe {
     font-size: 20px;
 }
 
-.reciever {
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.esc {
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.motor {
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.servo {
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.battery {
-    border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.motorImg {
+.motorImg { /*styles the images found in the text boxes on the components page*/
     height: 150px;
     display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -374,7 +334,7 @@ iframe {
 
 
 /*Scroll to Top Button*/
-.scrollToTop{
+.scrollToTop{ /*styling for the scroll to top button*/
 	width:100px; 
 	height:35px;
 	padding:10px; 
@@ -391,7 +351,7 @@ iframe {
 	display:none;
 }
 .scrollToTop:hover{
-	text-decoration: none;
+	text-decoration: none; 
 	opacity: 1;
 }
 
@@ -407,38 +367,39 @@ iframe {
 	font-size: 17px; /*Font size*/
 	display: inline-block;/*keeps everything inline*/
     text-align: center;/*centers text*/
+    float: left;/*floats the "made by ..." to the left*/
 }
 #copyrightOverlayButton {
 	float: right; /*Keeps element on right*/
 }
 
-#copyrightOverlay {
-    position: fixed; /*prevents scrolling on overlay*/
-    display: none; /*Controlled by javaScript and hides and shows the overlay*/
-    width: 100%; /*defines the width*/
-    height: 100%; /*defines the hieght*/
-    top: 0; /*Keeps overlay flush with top */
-    left: 0; /*Keeps overlay flush with left */
-    right: 0; /*Keeps overlay flush with right */
-    bottom: 0; /*Keeps overlay flush with bottom */
-    background-color: rgba(0,0,0,0.5); /*using rgba for background color to make transperant*/
+#copyrightOverlay { /*styling for the copyright overlay*/
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-color: rgba(0,0,0,0.5); 
     z-index: 2;
-    cursor: pointer; /*overlay is  a click to close so the pointer is changed to clicking pointer*/
+    cursor: pointer; 
 }
 
-.copyrightBox {
-    margin-right: 20%;
+.copyrightBox { /*aligns the box with text in the overlay correctly and styles it correctly*/
+    margin-right: 20%; 
     margin-left: 20%;
     margin-top: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: rgba(0,0,0,0.4);;
+    background-color: rgba(0,0,0,0.4); 
     border-radius: 15px;
 }
 
 #copyrightOverlay h2 {
-    color: #ffffff;
+    color: #ffffff; /*text colours in the overlay*/
 }
 
 #copyrightOverlay p {
-    color: #ffffff;
+    color: #ffffff; /*text colours in the overlay*/
 }
