@@ -189,7 +189,7 @@ iframe {
 /* Parallax */
 .parallax { /* parallax classes style the parallax effect found on each page*/
     background-image: url("resources/parallaxSketch1.jpg");
-    height: 600px;
+    height: 90%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ iframe {
 }
 .parallax1 {
     background-image: url("resources/parallaxSketch2.jpg");
-    height: 600px;
+    height: 90%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -205,7 +205,7 @@ iframe {
 }
 .parallax2 {
     background-image: url("resources/parallaxSketch5.jpg");
-    height: 600px;
+    height: 90%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ iframe {
 }
 .parallax3 {
     background-image: url("resources/prallaxSketch3.jpg");
-    height: 600px;
+    height: 90%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -221,7 +221,7 @@ iframe {
 }
 .parallax4 {
     background-image: url("resources/parallaxSketch4.jpg");
-    height: 600px;
+    height: 90%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
