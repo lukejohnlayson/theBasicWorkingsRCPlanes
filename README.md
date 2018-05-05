@@ -1,3 +1,6 @@
+```diff
+- THIS PAGE IS NOW DEPRECIATED DUE TO DUE DATES!
+```
 # The Basic Workings of a Remote Control Airplane Website Development
 
 A stylish website built as a school project. The aim of this website is to provide an easy way to quickly learn all the basic workings of a remote control airplane. We worked as a two man team with help from thrid party sources such as w3-schools.com
